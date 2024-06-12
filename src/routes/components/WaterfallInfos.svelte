@@ -7,7 +7,7 @@
 <div class="my-20">
     <div class="flex flex-col md:flex-row md mx-auto max-w-screen-2xl">
         <div class="w-full md:w-1/2">
-            <img src={PhoneImage} class="size-full" alt="phone" />
+            <img src={PhoneImage} class="size-full object-cover" alt="phone" />
         </div>
 
         <div class="flex flex-col p-16 justify-center w-full md:w-1/2">
@@ -30,13 +30,13 @@
         </div>
 
         <div class="w-full md:w-1/2">
-            <img src={DogIpadImage} class="size-full" alt="dog ipad" />
+            <img src={DogIpadImage} class="size-full object-cover" alt="dog ipad" />
         </div>
     </div>
 
     <div class="flex flex-col md:flex-row mx-auto max-w-screen-2xl">
         <div class="w-full md:w-1/2">
-            <img src={PandaImage} class="size-full" alt="panda" />
+            <img src={PandaImage} class="size-full object-cover" alt="panda" />
         </div>
 
         <div class="flex flex-col p-16 justify-center w-full md:w-1/2">
@@ -48,3 +48,10 @@
         </div>
     </div>
 </div>
+
+
+<style>
+    img {
+        height: 550px;
+    }
+</style>
