@@ -1,6 +1,6 @@
 <script>
 	import "../app.css";
-	import Header from './Header.svelte'
+	import Header from './components/Header.svelte'
 </script>
 
 
@@ -8,7 +8,7 @@
 	<Header />
 </header>
 
-<main class="mx-10 my-36">
+<main class="my-36 md:my-24">
 	<slot></slot>
 </main>
 
