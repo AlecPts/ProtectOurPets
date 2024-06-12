@@ -8,10 +8,10 @@
 	<Header />
 </header>
 
-<main class="mx-3 my-4">
+<main class="my-36">
 	<slot></slot>
 </main>
 
-<footer class="absolute bottom-1 text-center w-full">
+<footer class="bottom-0 py-2 text-center w-full bg-white">
 	fait par Alec
 </footer>
