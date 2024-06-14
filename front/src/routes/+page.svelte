@@ -8,7 +8,7 @@
 </script>
 
 
-<div class="text-lg/8 text-slate-600">
+<div>
 	<div class="mt-48 mb-24 px-16 w-full text-center md:max-w-screen-lg md:mx-auto md:px-20">
 		<h1 class="text-4xl font-semibold mb-8">Helping animals has never been easier !</h1>
 		<p class="mb-24">
