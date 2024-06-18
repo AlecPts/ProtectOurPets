@@ -5,24 +5,10 @@
 	import InstagramColoredLogo from "$lib/logo-mobile/instagram-colored.png";
 
 	import WaterfallInfos from "./components/WaterfallInfos.svelte";
-
-	// Poster fullscreen
-	export function getPics() {} //just for this demo
-	const imgs = document.querySelectorAll('#image img');
-	const fullPage = document.querySelector('#fullpage');
-
-	imgs.forEach(img => {
-		img.addEventListener('click', function() {
-			//fullPage.style.backgroundImage = 'url(' + img.src + ')';
-			fullPage.style.display = 'block';
-		});
-	});
-
-
 </script>
 
 
-<div onload="getPics()">
+<div>
 	<div class="mt-48 mb-24 text-center px-10">
 		<h1 class="text-4xl font-semibold mb-8">Helping animals has never been easier !</h1>
 		<p class="mb-24">
@@ -47,7 +33,6 @@
 		<div id="image" class="flex flex-col justify-center md:w-1/2 mx-10 md:mx-0">
 			<img src={Affiche} class="w-5/6 md:w-4/6 mx-auto drop-shadow-xl rounded" alt="poster campaign" />
 		</div>
-		<div id="fullpage" onclick="this.style.display='none';"></div>
 	</div>
 
 	<div class="my-24 md:max-w-screen-lg md:mx-auto">
