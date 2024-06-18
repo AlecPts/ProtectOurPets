@@ -11,3 +11,20 @@
     line-height: 1.8;
     @apply text-slate-600;
 }
+
+/* Poll */
+input[type=radio] {
+    @apply size-5 mr-3 my-2 bg-gray-100 border-gray-400 focus:ring-primary-500 focus:bg-primary-600 focus:ring-2;
+}
+
+input[type=checkbox] {
+    @apply size-5 mr-3 my-2 rounded bg-gray-100 border-gray-400 focus:ring-primary-500 checked:bg-primary-600 focus:ring-2;
+}
+
+input[type=text] {
+    @apply w-1/2 h-8 ml-3 my-2 rounded bg-gray-100 border-gray-400 focus:ring-primary-500 focus:border-gray-400 focus:ring-2;
+}
+
+textarea {
+    @apply my-2 rounded bg-gray-100 border-gray-400 focus:ring-primary-500 focus:border-gray-400 focus:ring-2 resize-none;
+}

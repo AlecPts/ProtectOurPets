@@ -9,7 +9,7 @@
 	<Header />
 </header>
 
-<main class="my-36 md:my-24">
+<main class="my-36 md:my-24 md:max-w-screen-lg md:mx-auto">
 	<slot></slot>
 </main>
 
