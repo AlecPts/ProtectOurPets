@@ -3,7 +3,7 @@
 
 	import Logo from '$lib/logo-variants/pop_lightgreen.png';
 	import { page } from '$app/stores';
-	import {Navbar, NavBrand, NavLi, NavUl, NavHamburger, Span} from 'flowbite-svelte';
+	import {Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 	$: activeUrl = $page.url.pathname;
 </script>
   
