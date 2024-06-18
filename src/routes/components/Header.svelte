@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	import Logo from '$lib/logo-variants/pop_lightgreen.png';
 	import { page } from '$app/stores';
 	import {Navbar, NavBrand, NavLi, NavUl, NavHamburger, Span} from 'flowbite-svelte';
@@ -14,8 +16,8 @@
 	<NavHamburger />
 
 	<NavUl {activeUrl}>
-		<NavLi href="/" class="text-lg">About</NavLi>
-		<NavLi href="/poll" class="text-lg">Poll</NavLi>
-		<NavLi href="/report" class="text-lg">Report</NavLi>
+		<NavLi href="{base}/" class="text-lg">About</NavLi>
+		<NavLi href="{base}/poll" class="text-lg">Poll</NavLi>
+		<NavLi href="{base}/report" class="text-lg">Report</NavLi>
 	</NavUl>
 </Navbar>
